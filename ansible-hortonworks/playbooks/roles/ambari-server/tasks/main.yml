@@ -143,7 +143,7 @@
   when: java == "oraclejdk"
 
 - name: Run Ambari Server setup
-  shell: /usr/sbin/ambari-server setup -s {{ ambari_java_options|default("") }} {{ ambari_database_options|default("") }}
+  shell: /usr/sbin/ambari-server setup -s {{ ambari_java_options|default("") }}
   notify: Restart ambari-server
 
 - name: Increase the Ambari Server startup timeout
