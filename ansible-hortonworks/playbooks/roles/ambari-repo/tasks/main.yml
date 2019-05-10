@@ -14,7 +14,7 @@
 
 - name: Add the Ambari repository (yum)
   yum_repository:
-    name: "ambari"
+    name: "ambari-2.6.1.5"
     description: "ambari Version - ambari-{{ ambari_version }}"
     baseurl: "{{ ambari_repo_url }}"
     file: 'ambari'
