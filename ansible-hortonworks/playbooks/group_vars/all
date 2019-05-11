@@ -3,7 +3,8 @@
 ## cluster configuration ##
 ###########################
 
-cluster_name: 'ladbrokes_belgium_prod_kafka'
+cluster_name: 'maltabet_kafka'
+#cluster_name: 'ladbrokes_belgium_prod_kafka'
 
 ambari_version: '2.6.1.5'                                 # must be the 4-part full version number
 
