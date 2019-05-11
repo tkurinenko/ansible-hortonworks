@@ -12,7 +12,7 @@ master01 ansible_host=lbb-ambari-privil-01.lbbel.ptec ansible_user=ta_ims.ci ans
 
 [hdp-slave]
 slave01 ansible_host=lbb-ambari-kafka-privil-01.lbbel.ptec ansible_user=ta_ims.ci ansible_ssh_private_key_file="/var/lib/jenkins/ims_ta_keys/ta_ims.ci_prod" rack=/default-rack
-slave02 ansible_host=lbb-ambari-kafka-privil-02.lbbel.ptecc ansible_user=ta_ims.ci ansible_ssh_private_key_file="/var/lib/jenkins/ims_ta_keys/ta_ims.ci_prod" rack=/default-rack
+slave02 ansible_host=lbb-ambari-kafka-privil-02.lbbel.ptec ansible_user=ta_ims.ci ansible_ssh_private_key_file="/var/lib/jenkins/ims_ta_keys/ta_ims.ci_prod" rack=/default-rack
 slave03 ansible_host=lbb-ambari-kafka-privil-03.lbbel.ptec ansible_user=ta_ims.ci ansible_ssh_private_key_file="/var/lib/jenkins/ims_ta_keys/ta_ims.ci_prod" rack=/default-rack
 
 
