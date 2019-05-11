@@ -3,7 +3,7 @@
 ## cluster configuration ##
 ###########################
 
-cluster_name: 'france_megatron_shared_kafka'
+cluster_name: 'gala_leisure_prod_ums_kafka'
 
 ambari_version: '2.6.1.5'                                 # must be the 4-part full version number
 
