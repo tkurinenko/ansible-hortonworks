@@ -11,6 +11,7 @@
     "replica.lag.max.messages": "4000",
     "fetch.purgatory.purge.interval.requests": "10000",
     "offsets.retention.minutes": "86400000",
+    "zookeeper.connect": "mtabet-ambari-kafka-privil-01.maltabet.ptec:2181,mtabet-ambari-kafka-privil-02.maltabet.ptec:2181,mtabet-ambari-kafka-privil-03.maltabet.ptec:2181",
     "kafka.ganglia.metrics.group": "kafka",
     "offsets.topic.compression.codec": "0",
     "zookeeper.connection.timeout.ms": "25000",
