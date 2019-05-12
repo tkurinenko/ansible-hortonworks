@@ -3,7 +3,8 @@
 ## cluster configuration ##
 ###########################
 
-cluster_name: 'ray_casino_kafka'
+cluster_name: 'sky_prod_kafka'
+#cluster_name: 'ray_casino_kafka'
 #cluster_name: 'partygaming_kafka'
 #cluster_name: 'maltabet_kafka'
 #cluster_name: 'ladbrokes_belgium_prod_kafka'
