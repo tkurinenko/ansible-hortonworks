@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-master_node="mtabet-ambari-privil-01.maltabet.ptec"
-cluster_name="maltabet_kafka"
+master_node="ptg-ambari-privil-01.ptg.ptec"
+cluster_name="partygaming_kafka"
 ta_ims_pkey="/var/lib/jenkins/ims_ta_keys/ta_ims.ci_prod"
 
 scp -i ${ta_ims_pkey} ams-hbase-log4j.json ta_ims.ci@${master_node}:/tmp/
