@@ -3,7 +3,8 @@
 ## cluster configuration ##
 ###########################
 
-cluster_name: 'gib_megatron_prod_ums_kafka'
+#cluster_name: 'gib_megatron_prod_ums_kafka'
+cluster_name: 'sportium_stg_kafka'
 #cluster_name: 'who_italy_kafka'
 #cluster_name: 'sky_prod_kafka'
 #cluster_name: 'ray_casino_kafka'
