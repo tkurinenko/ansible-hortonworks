@@ -3,15 +3,7 @@
 ## cluster configuration ##
 ###########################
 
-cluster_name: 'crossperf_ums2_kafka'
-#cluster_name: 'gib_megatron_prod_ums_kafka'
-#cluster_name: 'sportium_stg_kafka'
-#cluster_name: 'who_italy_kafka'
-#cluster_name: 'sky_prod_kafka'
-#cluster_name: 'ray_casino_kafka'
-#cluster_name: 'partygaming_kafka'
-#cluster_name: 'maltabet_kafka'
-#cluster_name: 'ladbrokes_belgium_prod_kafka'
+cluster_name: '_kafka'
 
 ambari_version: '2.6.1.5'                                 # must be the 4-part full version number
 
